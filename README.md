@@ -36,11 +36,10 @@ This project was created as part of my internship to practice Python programming
 * **Algorithm:** K-Nearest Neighbors (KNN)
 * **K Value:** 5
 * **Preprocessing:** StandardScaler
-* **Train/Test Split:** 80/20
+* **Train/Test Split:** 80/20 
 
 ## 📂 Project Structure
-
-```text
+```
 Data-Classification-Using-AI/
 │
 ├── src/
@@ -63,6 +62,7 @@ Data-Classification-Using-AI/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 🚀 How to Run
 1. Clone the repository
 git clone https://github.com/kartikey-jaat/-decodelabs-_tasks_2.git
