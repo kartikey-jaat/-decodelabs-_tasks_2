@@ -1,0 +1,10 @@
+=== KNN Model Evaluation ===
+Accuracy:  0.9333
+Precision: 0.9444
+Recall:    0.9333
+F1 Score:  0.9327
+
+=== Confusion Matrix ===
+[[10  0  0]
+ [ 0 10  0]
+ [ 0  2  8]]

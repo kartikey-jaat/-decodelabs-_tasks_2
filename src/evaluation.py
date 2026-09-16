@@ -79,6 +79,16 @@ def evaluate_model(y_test, predictions, target_names):
 
     plt.close()
 
+        # Save evaluation metrics
+    with open("results/metrics.txt", "w") as file:
+        file.write("=== KNN Model Evaluation ===\n")
+        file.write(f"Accuracy:  {accuracy:.4f}\n")
+        file.write(f"Precision: {precision:.4f}\n")
+        file.write(f"Recall:    {recall:.4f}\n")
+        file.write(f"F1 Score:  {f1:.4f}\n")
+        file.write("\n=== Confusion Matrix ===\n")
+        file.write(str(cm))
+
     return {
         "accuracy": accuracy,
         "precision": precision,
